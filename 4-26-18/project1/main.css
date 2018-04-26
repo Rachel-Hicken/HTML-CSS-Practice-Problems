@@ -1,0 +1,62 @@
+body{
+    background: lavenderblush;
+    height: 100vh;
+}
+
+.nav{
+    background: black;
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.box{
+    font-size: 23px;
+    font-family: 'Gugi', cursive;
+    color: white;
+    margin: 0 20px;
+}
+.navOptions{
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    align-content: center
+}
+.button{
+    width: 120px;
+    height: 30px;
+    background: lightseagreen;
+    text-align: center;
+}
+.button:hover{
+    background: mistyrose;
+    cursor: pointer;
+}
+section{
+    width: 100%;
+    height: 90%;
+    /* background: midnightblue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.splash{
+    width: 550px;
+    height: 300px;
+    /* background: burlywood; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+h1{
+    font-size: 45px;
+    text-transform: uppercase;
+}
+.splash-button{
+    background: black;
+    color: white;
+    width: 120px;
+    font-size: 24px;
+    text-align: center;
+}
